@@ -15,7 +15,7 @@ Rectangle {
         State { name: "closed" },
         State {
             name: "menu"
-            PropertyChanges { target: root; x: (index + 1) * root.width * 0.05; y: (index + 1) * root.height * 0.05 + root.menuButtonSize.height / 2 }
+            PropertyChanges { target: root; x: getMenuPos().x; y: getMenuPos().y }
             PropertyChanges { target: mouseArea; visible: true }
             PropertyChanges { target: cardTitle; anchors.leftMargin: root.menuButtonSize.width * 0.5; anchors.topMargin: root.menuButtonSize.height * 0.3 }
             PropertyChanges { target: root; radius: 10 }
@@ -78,5 +78,9 @@ Rectangle {
         onMenuCancelled: {
             root.state = root.current ? "closed" : "hidden";
         }
+    }
+
+    function getMenuPos() {
+        return Qt.point((index + 1) * root.width * 0.05, (index + 1) * root.height * 0.05 + root.menuButtonSize.height / 2 + cardTitle.height * 0.25)
     }
 }
