@@ -3,7 +3,7 @@ QML implementations of various UI concepts by various artists
 
 
 # Example Login by [enszgr](http://ens.ninja/)
-![image](http://zmc.space/assets/images/qml_login_animations/main.gif)
+![image](https://drive.google.com/uc?export=download&id=0B2b4SnYRu-h_a1lCWHVnTlZjMlE)
 
 An implementation of the login concept created by enszgr: http://ens.ninja/login-concept.html
 
