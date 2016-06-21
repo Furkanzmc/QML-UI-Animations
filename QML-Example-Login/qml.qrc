@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>LoginTextBox.qml</file>
+        <file>LoginStack.qml</file>
+        <file>LoginCheckBox.qml</file>
+        <file>LoginMessage.qml</file>
+    </qresource>
+</RCC>
