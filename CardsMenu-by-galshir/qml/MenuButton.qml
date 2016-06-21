@@ -1,19 +1,26 @@
-import QtQuick 2.0
+import QtQuick 2.5
 
 Item {
     signal clicked
     signal cancelled
     property color color: "white"
+    property color closeColor: "#516C8D"
+    property color currentColor: color
 
     id: root
     state: "menu"
     states: [
-        State { name: "menu" },
+        State {
+            name: "menu"
+
+            PropertyChanges { target: root; currentColor: color }
+        },
         State {
             name: "close"
             PropertyChanges { target: firstBar; y: secondBar.y - secondBar.height * 1.4 + root.getCloseOffset(); rotation: 45 }
             PropertyChanges { target: secondBar; opacity: 0 }
             PropertyChanges { target: thirdBar; y: secondBar.y + secondBar.height * 1.4 - root.getCloseOffset(); rotation: -45 }
+            PropertyChanges { target: root; currentColor: closeColor }
         }
     ]
     transitions: [
@@ -30,7 +37,7 @@ Item {
         height: (parent.height / 3) * 0.7
         x: secondBar.x
         y: secondBar.y - secondBar.height * 1.4
-        color: root.color
+        color: root.currentColor
         radius: 20
         transformOrigin: Item.Center
     }
@@ -41,7 +48,7 @@ Item {
         height: (parent.height / 3) * 0.7
         anchors.centerIn: parent
         radius: 20
-        color: root.color
+        color: root.currentColor
         transformOrigin: Item.Center
     }
 
@@ -51,7 +58,7 @@ Item {
         height: (parent.height / 3) * 0.7
         x: secondBar.x
         y: secondBar.y + secondBar.height * 1.4
-        color: root.color
+        color: root.currentColor
         radius: 20
         transformOrigin: Item.Center
     }

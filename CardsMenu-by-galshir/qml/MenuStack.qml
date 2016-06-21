@@ -69,5 +69,6 @@ Item {
         }
         onClicked: root.menuOpened()
         onCancelled: root.menuCancelled()
+        color: card4.oppositeColor
     }
 }
