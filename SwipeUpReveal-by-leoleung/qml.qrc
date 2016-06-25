@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qml/Card.qml</file>
+        <file>qml/CardImage.qml</file>
+        <file>qml/RoundedImage.qml</file>
+        <file>qml/SwipeArea.qml</file>
+        <file>qml/CardDetails.qml</file>
+        <file>qml/Rating.qml</file>
+        <file>qml/ProfileImages.qml</file>
+        <file>images/canada.jpg</file>
+        <file>images/location-icon.png</file>
+        <file>images/star-empty.png</file>
+        <file>images/star-filled.png</file>
+        <file>images/tony-stark.png</file>
+        <file>images/captain-america.jpg</file>
+        <file>images/hawkeye.jpg</file>
+        <file>images/scarlet-witch.jpg</file>
+        <file>images/thor.jpg</file>
+    </qresource>
+</RCC>
