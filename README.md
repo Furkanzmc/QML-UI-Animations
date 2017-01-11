@@ -22,3 +22,11 @@ Implementation of the menu concept created by Gal Shir: https://dribbble.com/sho
 ![image](https://drive.google.com/uc?export=download&id=0B2b4SnYRu-h_OG9RM1l4d2lZbUk)
 
 Swipe up to reveal concept created by Leo Leung: https://dribbble.com/shots/2493845-ToFind-Transition-Test
+
+
+# Menu by [Volorf](https://dribbble.com/Volorf)
+
+![image](https://drive.google.com/uc?export=download&id=0B2b4SnYRu-h_UnFTRXBDNzBjR1U)
+
+Menu concept created by Oleg Frolov: https://dribbble.com/shots/2653519-Menu
+Assets in `Menu-by-Volorf/images` folder was taken from [here](http://share.framerjs.com/lg0nu9ecekfy/).

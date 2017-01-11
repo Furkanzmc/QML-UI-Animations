@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/MenuItem.qml</file>
+        <file>images/auto@2x.png</file>
+        <file>images/realty@2x.png</file>
+        <file>images/services@2x.png</file>
+        <file>images/work@2x.png</file>
+        <file>qml/Menu.qml</file>
+    </qresource>
+</RCC>
