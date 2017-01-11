@@ -12,7 +12,7 @@ Related blog post: http://zmc.space/2016/qml-login-animation/
 
 # Cards Menu by [galshir](https://dribbble.com/galshir)
 
-![image](https://drive.google.com/uc?export=download&id=0B2b4SnYRu-h_NjdiNmJPbjZGMnM)
+![image](https://drive.google.com/uc?export=download&id=0B2b4SnYRu-h_cnMyd2Y5NGtVRkE)
 
 Implementation of the menu concept created by Gal Shir: https://dribbble.com/shots/2389505-Cards-Menu-Concept
 
