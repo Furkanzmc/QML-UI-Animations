@@ -1,0 +1,4 @@
+module ExpandableBottomBar
+
+NavigationBar 1.0 NavigationBar.qml
+NavigationBarButton 1.0 NavigationBarButton.qml
