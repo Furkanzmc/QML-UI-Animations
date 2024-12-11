@@ -41,3 +41,11 @@ A QML Clone of [ExpandableBottomBar](https://github.com/st235/ExpandableBottomBa
 ### Credits
 
 - Test icons from https://www.flaticon.com/packs/minimal-interface
+
+## Todo
+
+![demo.gif](Todo-by-Dua-e-Zehra-Rizvi/assets/demo.gif)
+
+### Credits
+
+- Design credits: https://dribbble.com/shots/23117193-Todo-App

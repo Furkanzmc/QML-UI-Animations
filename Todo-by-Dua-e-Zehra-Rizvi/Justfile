@@ -1,0 +1,2 @@
+run:
+    qml -style Styles.Todo.QtQuickControls -I ./qml/ -I ./qml/Templates -I ./qml/Styles -f ./main.qml

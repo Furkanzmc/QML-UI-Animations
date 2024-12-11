@@ -1,0 +1,7 @@
+module Templates.Todo.Window
+
+Window 1.0 Window.qml
+NavigationBar 1.0 NavigationBar.qml
+NavigationBarButton 1.0 NavigationBarButton.qml
+NewEventButton 1.0 NewEventButton.qml
+TasksView 1.0 TasksView.qml

@@ -1,0 +1,4 @@
+module Styles.Todo.Tasks
+
+TaskList 1.0 TaskList.qml
+TaskCard 1.0 TaskCard.qml

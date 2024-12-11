@@ -1,0 +1,5 @@
+module Todo.Delegates
+
+TaskCardDelegate 1.0 TaskCardDelegate.qml
+DashboardItemClockDelegate 1.0 DashboardItemClockDelegate.qml
+DashboardItemClocksDelegate 1.0 DashboardItemClocksDelegate.qml

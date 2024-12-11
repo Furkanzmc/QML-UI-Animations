@@ -1,0 +1,7 @@
+module Styles.Todo.Dashboard
+
+Dashboard 1.0 Dashboard.qml
+DashboardItemDate 1.0 DashboardItemDate.qml
+DashboardItemBase 1.0 DashboardItemBase.qml
+DashboardItemClocks 1.0 DashboardItemClocks.qml
+DashboardItemClock 1.0 DashboardItemClock.qml
